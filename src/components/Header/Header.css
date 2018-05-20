@@ -1,0 +1,37 @@
+.Brand a {
+    text-decoration: none;
+  }
+
+.Brand ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.Brand li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.Brand h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 58px;
+    letter-spacing: 4px;
+    padding-top: 25px;
+  }
+  
+.Brand a:visited {
+    text-decoration: none;
+    color: inherit;
+  
+  }
+  
+.Brand p {
+    margin-top: -20px;
+    font-family: 'Monteserrat', sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+  }

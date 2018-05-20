@@ -1,0 +1,56 @@
+
+.show-container {
+    margin-top: -20px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+   
+  }
+  
+  .show-container .left {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    font-family: 'Monteserrat', sans-serif;
+    
+  }
+  
+  .show-container .left h2 {
+    padding-left: 60px;
+  }
+  
+  .poster-nohover {
+    padding-left: 60px;
+    max-height: 420px;
+    max-width: 300px;
+  }
+  
+  .show-container .right {
+
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .show-container .left span {
+    background: white;
+    border-radius: 5px;
+    padding: 0px 4px;
+    color: black;
+  }
+  
+  .show-container .left h3 {
+    text-align: center;
+    padding-right: 80px;
+  }
+  
+  .show-container .left .show-poster {
+    height: auto;
+    width: auto;
+  }
+  
+  .show-container .right h3 {
+    margin-top: 20px;
+  }

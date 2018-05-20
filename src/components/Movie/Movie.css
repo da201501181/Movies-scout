@@ -1,0 +1,47 @@
+.movie-content {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    height: 320px;
+    width: 250px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px 10px #ccc;
+    border: 1px solid #eee;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .movie {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 2% 10px 2%;
+    margin-bottom: 20px;
+    
+  }
+  .movie a{
+    text-decoration: none;
+  color: inherit;
+  }
+  .movie a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  .movie h3 {
+    letter-spacing: 2px;
+  }
+  
+  .movie img {
+    box-shadow: 1px 1px 10px 2px #888888;
+  }
+  
+  .poster {
+    height: 220px;
+    width: 170px;
+    margin-top: 10px;
+
+  }
+  
+  .movie-content:hover{
+    transform: scale(1.1);
+    z-index: 1;
+  }
